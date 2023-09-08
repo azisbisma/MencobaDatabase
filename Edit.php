@@ -26,7 +26,8 @@ include "update.php";
                         <option value="D" <?php if ($grade === 'D') echo 'selected'; ?>>D</option>
                         <option value="E" <?php if ($grade === 'E') echo 'selected'; ?>>E</option>
                     </select><br>
-                <input type="submit" name="update" value="Update">
+                <input type="submit" name="update" value="Update"><br>
+                <a class="button" href="index.php">Kembali</a>
             </form>
     </div>
 </body>
